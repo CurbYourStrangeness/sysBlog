@@ -4,12 +4,28 @@
     <title>SysBlog</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <header>
+     <a src="/" id="logo">Website/Blog Development in Progress</a>
+     <nav>
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ol>
+     </nav>
+    </header>
+
+    <main>
+    </main>
+
+    <footer>
+    <h3>Come Back Soon!</h3>
+    </footer>
     <%= yield %>
   </body>
 </html>
